@@ -19,14 +19,19 @@ O **Simulador de Financiamento** é uma aplicação web desenvolvida em **Node.j
    git clone https://github.com/seu-usuario/simulador-financiamento.git
    cd simulador-financiamento
 
+
+
 2. Instale as dependências:
+
    ```bash
-npm install
+   npm install
+
+
 
 3. Execute o servidor:
+
    ```bash
-npm run start
-node app.js
+   node app.js
 
 4. Acesse o servidor em http://localhost:3000
 
