@@ -18,39 +18,38 @@ O **Simulador de Financiamento** é uma aplicação web desenvolvida em **Node.j
    ```bash
    git clone https://github.com/seu-usuario/simulador-financiamento.git
    cd simulador-financiamento
-
+    ```
 2. Instale as dependências:
-
+   ```bash
 npm install
-
+    ```
 3. Execute o servidor:
-
+   ```bash
 npm run start
 node app.js
-
+    ```
 4. Acesse o servidor em http://localhost:3000
 
-⚙️ Estrutura do Projeto
+## ⚙️ Estrutura do Projeto
 
 simulador-financiamento/
-├── app.js              # Arquivo principal da aplicação
-├── package.json        # Configuração do projeto Node.js
-├── public/             # Arquivos estáticos (CSS, JS, imagens)
-├── views/              # Templates HTML (EJS)
-└── node_modules/       # Dependências instaladas
+├── app.js # Arquivo principal da aplicação
+├── package.json # Configuração do projeto Node.js
+├── public/ # Arquivos estáticos (CSS, JS, imagens)
+├── views/ # Templates HTML (EJS)
+└── node_modules/ # Dependências instaladas
 
-✨ Funcionalidades
-Simulação de financiamento com entrada e parcelas
+## ✨ Funcionalidades
 
-Cálculo com base em juros e prazos definidos
+- Simulação de financiamento com entrada e parcelas  
+- Cálculo com base em juros e prazos definidos  
+- Exibição de resultados detalhados com tabelas  
+- Comparativo entre opções *(ex: SAC vs PRICE se implementado)*  
+- Interface clara, intuitiva e responsiva  
 
-Exibição de resultados detalhados com tabelas
 
-Comparativo entre opções (ex: SAC vs PRICE se implementado)
+## 📄 Licença
 
-Interface clara, intuitiva e responsiva
-
-📄 Licença
-Este projeto está licenciado sob os termos da ISC License.
+Este projeto está licenciado sob os termos da **ISC License**.
 
 
